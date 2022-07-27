@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00f19d;
+ }
+ h2, h3{
+    color: #00a2c6
+ }
+ h3 {
+    background-color: #60d0a8;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    
+}
+
+h2 {
+    background-color: #4c5450;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+pre {
+    background-color: hsl(56, 62%, 85%);
+    padding: 20px;
+}
+  
+.fancy {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f; /* Warna bayangan Judul Utama*/
+}
+
+.featured-image {
+   width: 50%;
+   max-height: 400px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 5%;
+   border-style:solid;
+   border-color: #00925f;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #60d0a8;
+    text-align: center;
+    color: white;
+ }
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav {
+    background-color: #00925f;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+ }
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+nav a:hover {
+    font-weight: bold;
+    text-decoration-line: underline;
+ }
+
+
+div{
+    background-color: rgb(200, 200, 200);
+    padding: 20px 15px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 15px;
+    text-align: center;
+ }
+
+ * {
+    box-sizing: border-box;
+ }
+header {
+    display: inline;
+ }
+
+footer {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #00925f;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ #content {
+    float: left;
+    width: 75%;
+ }
+
+
+ #pp {
+     border-radius: 50%;
+     border-style:solid;
+     border-color: #00925f;
+     width: 200px; 
+     height: 200px;
+ }
+ * {
+    box-sizing: border-box;
+ }
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: hsl(56, 62%, 85%);
+ }
+ 
+ /* Respinsive Breakpoint */
+ @media screen and (max-width: 1000px) {
+    #content,
+    aside,
+    body{
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+ main {
+    padding: 30px;
+    overflow: auto;
+ }
+
+ .profile header {
+    text-align: center;
+ }
